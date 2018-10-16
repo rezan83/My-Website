@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../img/cover3.jpg") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 60px;
+}
+/* .container {
+  margin: 0px auto;
+  width: 80%;
+} */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.column {
+  width: 33.33%;
+  display: inline-block;
+  padding-right: 20px;
+  float: left;
+}
+.intro, .skills {
+  padding: 0 20px;
+}
+.image img {
+  width: 80%;
+}
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+
+/* navbar*/
+
+.nav ul li{
+  display: inline-block;
+  text-transform:uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px;
+}
+.nav ul li:hover{
+  background-color:rgb(30, 11, 45);
+  -webkit-transition: background-color 600ms;
+  transition: background-color 600ms;
+}
+.nav{
+  background-color: #392344 ;
+  position: fixed;
+  width:100%;
+  top:0;
+}
+.nav ul li a{
+  color: white;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+.nav ul li a:hover{
+  color:#46a6d5;
+  text-decoration: none;
+}
+
+/*Typography */
+
+ h1, h2, h3  {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+.nav li{
+  font-family: Futura, Helvetica, Arial, sans-serif
+}
+p, li {
+  font-family: Georgia, Courier, serif;
+}
+.intro p{
+  font-family:'Indie Flower', cursive;
+  font-weight: 300;
+  font-size: larger;
+  text-shadow: 4px 4px 4px #aaa;
+  -webkit-margin-before: 0;
+}
+.skills h3 {
+  text-transform: uppercase;
+  text-align:center;
+}
+.skills {
+  background-color:#392344;
+}
+#skill-list{
+  margin-left: 15%;
+}
+#skill-list li{
+  list-style-type: none;
+}
+#skill-list li:hover >span{
+  color:black;
+  font-size: larger;
+}
+#skill-list span{
+  transition: font-size, color 500ms;
+}

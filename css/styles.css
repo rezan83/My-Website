@@ -1,0 +1,304 @@
+
+/* general */
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/universe.jpg") ;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover;
+        background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  margin-top: 4%;
+  position: relative;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.header {
+  margin: 20px 30px;
+  text-align: center;
+}
+
+/* nav */
+.navbar-right a:hover {
+  border-bottom: 2px solid rgb(25, 214, 186);
+}
+
+/* home */
+
+.carousel-caption {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+}
+
+/* about */
+
+#about {
+  margin-bottom: 100px;
+}
+
+.intro, .skills {
+  padding: 0 20px;
+}
+
+.image img {
+  width: 90%;
+}
+
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills {
+  background-color: #392344;
+}
+
+#skill-list {
+  margin-left: 15%;
+}
+
+#skill-list li {
+  list-style-type: none;
+}
+
+#skill-list li:hover >span {
+  color: black;
+  font-size: larger;
+}
+
+#skill-list span {
+  transition: font-size, color 300ms;
+}
+
+/* faq */
+
+.faq-header {
+  float: left;
+  text-align: left;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+.modal-content {
+  color: black;
+}
+
+#faq {
+  margin-bottom: 100px;
+  height: 600px;
+}
+
+#accordion .panel-heading {
+  background-color: #392344;
+  color: white;
+}
+
+.panel-body {
+  background-color: #8973a8;
+}
+
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* work */
+
+#work {
+  /*background-image: url("../img/lightning1.jpg");*/
+  /*-webkit-background-size: cover;*/
+  /*  -moz-background-size: cover;*/
+  /*    -o-background-size: cover;*/
+  /*      background-size: cover;*/
+  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*margin-left: 0;*/
+  margin-bottom: 100px;
+  height: 900px;
+}
+
+.project img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.proj-title {
+  color:rgb(238, 12, 200);
+  text-shadow: 1px 1px #5c0d0d;
+}
+
+/* additional work images */
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 300px;  /*needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+
+.proj-title {
+  font-weight:100;
+}
+
+/* contact */
+
+#contact {
+  background-color: #392344;
+  padding-bottom: 50px;
+}
+
+/* footer */
+
+.foot {
+  width: 100%;
+  background-color: #101010;
+  margin-bottom: 0;
+}
+
+.copyright {
+  float: left;
+}
+
+.social {
+  float: right;
+}
+
+.fa {
+  padding: 15px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #283e4a;
+}
+
+.fa-whatsapp {
+  background:#1ebea5;
+}
+
+
+/* Typography */
+
+p, li {
+  font-family: Georgia, Courier, serif;
+}
+
+.intro p {
+  font-family:'Indie Flower', cursive;
+  font-weight: 300;
+  -webkit-margin-before: 0;
+}
+
+/* map */
+#map {
+  height: 400px;
+}
+
+/*gallery*/
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 100px;
+}

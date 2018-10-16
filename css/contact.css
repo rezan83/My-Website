@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/cover3.jpg") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: #fffeea;*/
+  /*color: #34495e;*/
+  color: white;
+}
+
+.contact{
+    background-color: #611970;
+    display: inline-block;
+    position:absolute;
+    margin: 15% 25%;
+}
+.contact h1{
+    text-align: center
+}
+
+.contact p{
+    margin: 10% 10%;
+}
+
+.contact li {
+    list-style: none;
+    margin-left: 10%;
+}
+
+.icon{
+    width: 45px;
+    float: left;
+    margin-left: 15%;
+}
+
+/*navbar*/
+
+.nav ul li{
+  display: inline-block;
+  text-transform:uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px;
+}
+
+.nav ul li:hover{
+  background-color:rgb(30, 11, 45);
+  -webkit-transition: background-color 600ms;
+  transition: background-color 600ms;
+}
+
+.nav{
+  background-color: #392344 ;
+  position: fixed;
+  width:100%;
+  top:0;
+}
+
+.nav ul li a{
+  color: white;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color:#46a6d5;
+  text-decoration: none;
+}

@@ -1,0 +1,136 @@
+/* general */
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 70px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+/* navbar */
+a {
+  float: left;
+  color: #696363;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #714caf;
+  color: #d3dff0;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: rgb(15, 77, 159);
+  border-bottom: 2px solid blue;
+}
+
+.nav-text {
+  float: right;
+  padding: 14px 16px;
+  margin-right: 15px;
+  border-radius: 25px;
+}
+nav {
+  background-color: #ddebed;
+  overflow: hidden;
+  width: 100%;
+  margin-top: -70px;
+  padding-top: 0;
+  position: fixed;
+  z-index: 1;
+  clear: both;
+}
+
+/* twitter cards */
+
+.card-container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.card {
+  background-color: white;
+  height: 800px;
+  display: inline-block;
+  margin: 0 0.5%;
+  border: 5px solid #ddebed;
+  position: relative;
+  overflow:hidden;
+  scroll-behavior: auto;
+  vertical-align: middle;
+}
+
+.header {
+  height: 50px;
+  border: 0.1em solid #ddebed;
+  overflow:hidden;
+}
+
+.card-side {
+  width: 25%;
+}
+
+.card-left-header {
+  height: 100px;
+  position: relative;
+}
+.card-left-theme{
+  background-image: url(../img/space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+
+.card-left-seperator {
+  height: 50px;
+  border-top: 0.1em solid #ddebed;
+}
+
+.header-image{
+  border-radius: 50px;
+  border: 2px solid blue;
+  position: absolute;
+  bottom: 8px;
+}
+
+.card-main {
+  width: 45%;
+}
+
+.card-main-header h6 {
+  display: inline-block;
+}
+
+.card-main-header input {
+  display: inline-block;
+  border-radius: 25px;
+  height: 90%;
+  width: 70%;
+  margin: auto;
+  float: right;
+}
+
+
+h3, p {
+  position: absolute;
+}
+p {
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px) {
+  .card{
+    width: 90%;
+    }
+}
