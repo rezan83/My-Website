@@ -21,7 +21,7 @@ var works = [
   },
   {
     title: "Cool_Company Template",
-    pic: "https://lorempixel.com/300/300/business/2",
+    pic: "img/cool_company.jpeg",
     link: "cool_company.html"
   },
   {
