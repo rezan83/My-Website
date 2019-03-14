@@ -44,14 +44,7 @@ $(document).ready(function(){
     var tooltip = $('[data-toggle="tooltip"]')
     tooltip.tooltip();
   });
-  // hello message when nav brandname clicked
-  $(".navbar-brand").on("click", function(){
-    var name = prompt("please inter your name")
-    if (!name){
-      name = "Guest"
-    }
-    alert("hello "+name);
-  });
+
   // shoing message back
   $("#message-submit").on("click", function(){
     // console.log("clicked");
@@ -94,10 +87,10 @@ $(document).ready(function(){
     );
     var images = $(".project-b img")
     if (i%2 === 0){
-      $(images[i]).css("border", "2px solid salmon");
+      $(images[i]).css("border", "2px solid #74CEFA");
       console.log("yes");
     }else {
-      $(images[i]).css("border", "2px solid blue");
+      $(images[i]).css("border", "2px solid #7894F9");
       console.log("no");
     };
 

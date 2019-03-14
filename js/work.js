@@ -20,8 +20,13 @@ var works = [
     link: "https://omrailstut.herokuapp.com/"
   },
   {
-    title: "Twitter front-end clone",
-    pic: "img/twitterclone.jpg",
-    link: "tclone.html"
+    title: "Cool_Company Template",
+    pic: "https://lorempixel.com/300/300/business/2",
+    link: "cool_company.html"
+  },
+  {
+    title: "Angular Shopping",
+    pic: "img/batman.jpeg",
+    link: "https://github.com/rezan83/movie_cart"
   }
 ];

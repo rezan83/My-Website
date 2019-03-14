@@ -161,8 +161,8 @@ p {
 }
 
 .proj-title {
-  color:rgb(238, 12, 200);
-  text-shadow: 1px 1px #5c0d0d;
+  color:black;
+  text-shadow: 1px 1px #E6EEF3;
 }
 
 /* additional work images */
@@ -188,13 +188,6 @@ p {
 
 .proj-title {
   font-weight:100;
-}
-
-/* contact */
-
-#contact {
-  background-color: #392344;
-  padding-bottom: 50px;
 }
 
 /* footer */
@@ -249,7 +242,6 @@ p, li {
 }
 
 /*gallery*/
-
 
 .gallery-title
 {
