@@ -155,13 +155,16 @@ p {
   height: 900px;
 }
 
-.project img {
+.project-b img {
   max-width: 300px;
   max-height: 300px;
 }
 
+.project-b img:hover {
+  opacity: 0.5;
+}
 .proj-title {
-  color:black;
+  color:#D4D8EE;
   text-shadow: 1px 1px #E6EEF3;
 }
 

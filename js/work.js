@@ -5,7 +5,7 @@ var works = [
     link: "https://rezanbikes.herokuapp.com/"
   },
   {
-    title: "GitStalker Github api",
+    title: "GitStalker Github",
     pic: "img/tiger1.jpg",
     link: "gitstalker.html"
   },
@@ -15,17 +15,17 @@ var works = [
     link: "MyWeather.html"
   },
   {
-    title: "rails Twitter clone",
+    title: "Rails Twitter",
     pic: "img/twitterclone.jpg",
     link: "https://omrailstut.herokuapp.com/"
   },
   {
-    title: "Cool_Company Template",
+    title: "Cool_Company",
     pic: "img/cool_company.jpeg",
     link: "cool_company.html"
   },
   {
-    title: "Angular Shopping",
+    title: "Angular.js Shopping",
     pic: "img/batman.jpeg",
     link: "https://github.com/rezan83/movie_cart"
   }

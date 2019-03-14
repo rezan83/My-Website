@@ -72,7 +72,6 @@ $(document).ready(function(){
     var pic = works[i].pic
     var linkTitle = works[i].title
     var link = works[i].link
-    console.log(link, linkTitle);
     $(".project").append(
     `<div class="project-b gallery_product col-md-4 col-sm-6 col-xs-12 filter">
     <a class="work-img" href=
