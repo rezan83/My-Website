@@ -161,11 +161,12 @@ p {
 }
 
 .project-b img:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+  filter: blur(3px);
 }
 .proj-title {
-  color:#D4D8EE;
-  text-shadow: 1px 1px #E6EEF3;
+  color:white;
+  text-shadow: 1px 1px black;
 }
 
 /* additional work images */
@@ -180,9 +181,8 @@ p {
 .info {
   position: absolute;
   top: 15%;
-  left: 22%;
+  right: 50px;
   color:#fff;
-  text-transform:uppercase;
   font-weight:700;
   letter-spacing:0.5em;
   line-height:1.6;

@@ -1,11 +1,11 @@
 var works = [
   {
-    title: "rails e-commerce",
+    title: "Rails commerce",
     pic: "img/bike1.jpg",
     link: "https://rezanbikes.herokuapp.com/"
   },
   {
-    title: "GitStalker Github",
+    title: "GitStalker",
     pic: "img/tiger1.jpg",
     link: "gitstalker.html"
   },
@@ -20,12 +20,12 @@ var works = [
     link: "https://omrailstut.herokuapp.com/"
   },
   {
-    title: "Cool_Company",
+    title: "Cool Company",
     pic: "img/cool_company.jpeg",
     link: "cool_company.html"
   },
   {
-    title: "Angular.js Shopping",
+    title: "Batman Cart",
     pic: "img/batman.jpeg",
     link: "https://github.com/rezan83/movie_cart"
   }
