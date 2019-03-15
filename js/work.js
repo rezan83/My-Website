@@ -12,7 +12,7 @@ var works = [
   {
     title: "MyWeather",
     pic: "img/weather.jpg",
-    link: "MyWeather.html"
+    link: "https://rezan-my-weather.netlify.com/"
   },
   {
     title: "Rails Twitter",
