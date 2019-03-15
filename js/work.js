@@ -27,6 +27,6 @@ var works = [
   {
     title: "Batman Cart",
     pic: "img/batman.jpeg",
-    link: "https://github.com/rezan83/movie_cart"
+    link: "https://rezan-batman-cart.netlify.com"
   }
 ];
