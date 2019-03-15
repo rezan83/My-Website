@@ -5,6 +5,16 @@ var works = [
     link: "https://rezanbikes.herokuapp.com/"
   },
   {
+    title: "Cool Company",
+    pic: "img/cool_company.jpeg",
+    link: "cool_company.html"
+  },
+  {
+    title: "Batman Cart",
+    pic: "img/batman.jpeg",
+    link: "https://rezan-batman-cart.netlify.com"
+  },
+  {
     title: "GitStalker",
     pic: "img/tiger1.jpg",
     link: "gitstalker.html"
@@ -18,15 +28,5 @@ var works = [
     title: "Rails Twitter",
     pic: "img/twitterclone.jpg",
     link: "https://omrailstut.herokuapp.com/"
-  },
-  {
-    title: "Cool Company",
-    pic: "img/cool_company.jpeg",
-    link: "cool_company.html"
-  },
-  {
-    title: "Batman Cart",
-    pic: "img/batman.jpeg",
-    link: "https://rezan-batman-cart.netlify.com"
   }
 ];
