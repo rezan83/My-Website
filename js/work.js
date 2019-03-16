@@ -7,7 +7,7 @@ var works = [
   {
     title: "Cool Company",
     pic: "img/cool_company.jpeg",
-    link: "cool_company.html"
+    link: "https://rezan-cool-company.netlify.com"
   },
   {
     title: "Batman Cart",
@@ -17,7 +17,7 @@ var works = [
   {
     title: "GitStalker",
     pic: "img/tiger1.jpg",
-    link: "gitstalker.html"
+    link: "https://rezan-git-stalker.netlify.com/"
   },
   {
     title: "MyWeather",
