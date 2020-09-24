@@ -1,32 +1,28 @@
 var works = [
-  {
-    title: "Rails commerce",
-    pic: "img/bike1.jpg",
-    link: "https://rezanbikes.herokuapp.com/"
-  },
-  {
-    title: "Cool Company",
-    pic: "img/cool_company.jpeg",
-    link: "https://rezan-cool-company.netlify.com"
-  },
-  {
-    title: "Batman Cart",
-    pic: "img/batman.jpeg",
-    link: "https://rezan-batman-cart.netlify.com"
-  },
-  {
-    title: "GitStalker",
-    pic: "img/tiger1.jpg",
-    link: "https://rezan-git-stalker.netlify.com/"
-  },
-  {
-    title: "MyWeather",
-    pic: "img/weather.jpg",
-    link: "https://rezan-my-weather.netlify.com/"
-  },
-  {
-    title: "Rails Twitter",
-    pic: "img/twitterclone.jpg",
-    link: "https://omrailstut.herokuapp.com/"
-  }
+    {
+        title: "MyEstora",
+        pic: "img/myestora.png",
+        link: "https://myestora.herokuapp.com",
+    },
+
+    {
+        title: "CryptoBoard",
+        pic: "img/cryptoboard.png",
+        link: "https://rezan83.github.io/CryptoBoard",
+    },
+    {
+        title: "RocketChat",
+        pic: "img/rocketchat.png",
+        link: "https://chatter-111.firebaseapp.com/",
+    },
+    {
+        title: "Batman Cart",
+        pic: "img/batman.jpeg",
+        link: "https://rezan-batman-cart.netlify.com",
+    },
+    {
+        title: "Cool Company",
+        pic: "img/cool_company.jpeg",
+        link: "https://rezan-cool-company.netlify.com",
+    },
 ];
