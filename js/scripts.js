@@ -78,20 +78,13 @@ $(document).ready(function(){
     '${link}'>
     <img class="image" src=
     '${pic}'>
-    <span class="info"><p class="proj-title">'${linkTitle}'</p>
+    <span class="info"><p class="proj-title">${linkTitle}</p>
     </span>
     </a>
     </div>
     `
     );
-    var images = $(".project-b img")
-    if (i%2 === 0){
-      $(images[i]).css("border", "2px solid #74CEFA");
-      console.log("yes");
-    }else {
-      $(images[i]).css("border", "2px solid #7894F9");
-      console.log("no");
-    };
+  
 
   };
   $(".work-img").mouseenter(function(){
